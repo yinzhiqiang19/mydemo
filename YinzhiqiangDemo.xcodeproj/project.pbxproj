@@ -17,7 +17,6 @@
 		3CA2E38E1D47339E003C89C7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA2E38C1D47339E003C89C7 /* SecondViewController.m */; };
 		3CA2E38F1D47339E003C89C7 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CA2E38D1D47339E003C89C7 /* SecondViewController.xib */; };
 		3CA2E3931D4734B1003C89C7 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA2E3911D4734B1003C89C7 /* ThirdViewController.m */; };
-		3CA2E3941D4734B1003C89C7 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CA2E3921D4734B1003C89C7 /* ThirdViewController.xib */; };
 		3CE88BA71D3735D900C6B559 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE88BA31D3735D900C6B559 /* FirstViewController.m */; };
 		3CE88BA81D3735D900C6B559 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CE88BA41D3735D900C6B559 /* FirstViewController.xib */; };
 		3CE88BA91D3735D900C6B559 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE88BA61D3735D900C6B559 /* ViewController.m */; };
@@ -63,7 +62,6 @@
 		3CA2E38D1D47339E003C89C7 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		3CA2E3901D4734B1003C89C7 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		3CA2E3911D4734B1003C89C7 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
-		3CA2E3921D4734B1003C89C7 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 		3CE88BA21D3735D900C6B559 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = home/viewcontroller/FirstViewController.h; sourceTree = "<group>"; };
 		3CE88BA31D3735D900C6B559 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = home/viewcontroller/FirstViewController.m; sourceTree = "<group>"; };
 		3CE88BA41D3735D900C6B559 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstViewController.xib; path = home/viewcontroller/FirstViewController.xib; sourceTree = "<group>"; };
@@ -183,7 +181,6 @@
 				3CA2E38D1D47339E003C89C7 /* SecondViewController.xib */,
 				3CA2E3901D4734B1003C89C7 /* ThirdViewController.h */,
 				3CA2E3911D4734B1003C89C7 /* ThirdViewController.m */,
-				3CA2E3921D4734B1003C89C7 /* ThirdViewController.xib */,
 			);
 			name = viewcontroller;
 			sourceTree = "<group>";
@@ -309,7 +306,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CA2E3941D4734B1003C89C7 /* ThirdViewController.xib in Resources */,
 				3C128F971D35CC86003743E5 /* LaunchScreen.storyboard in Resources */,
 				3C128F941D35CC86003743E5 /* Assets.xcassets in Resources */,
 				3CA2E38F1D47339E003C89C7 /* SecondViewController.xib in Resources */,
