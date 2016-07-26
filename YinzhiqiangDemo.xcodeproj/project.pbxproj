@@ -14,6 +14,8 @@
 		3C128F971D35CC86003743E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C128F951D35CC86003743E5 /* LaunchScreen.storyboard */; };
 		3C128FA21D35CC86003743E5 /* YinzhiqiangDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C128FA11D35CC86003743E5 /* YinzhiqiangDemoTests.m */; };
 		3C128FAD1D35CC86003743E5 /* YinzhiqiangDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C128FAC1D35CC86003743E5 /* YinzhiqiangDemoUITests.m */; };
+		3CA2E38E1D47339E003C89C7 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CA2E38C1D47339E003C89C7 /* SecondViewController.m */; };
+		3CA2E38F1D47339E003C89C7 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CA2E38D1D47339E003C89C7 /* SecondViewController.xib */; };
 		3CE88BA71D3735D900C6B559 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE88BA31D3735D900C6B559 /* FirstViewController.m */; };
 		3CE88BA81D3735D900C6B559 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CE88BA41D3735D900C6B559 /* FirstViewController.xib */; };
 		3CE88BA91D3735D900C6B559 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CE88BA61D3735D900C6B559 /* ViewController.m */; };
@@ -54,6 +56,9 @@
 		3C128FAC1D35CC86003743E5 /* YinzhiqiangDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YinzhiqiangDemoUITests.m; sourceTree = "<group>"; };
 		3C128FAE1D35CC86003743E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C128FBB1D35D1A2003743E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		3CA2E38B1D47339E003C89C7 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3CA2E38C1D47339E003C89C7 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3CA2E38D1D47339E003C89C7 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		3CE88BA21D3735D900C6B559 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstViewController.h; path = home/viewcontroller/FirstViewController.h; sourceTree = "<group>"; };
 		3CE88BA31D3735D900C6B559 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstViewController.m; path = home/viewcontroller/FirstViewController.m; sourceTree = "<group>"; };
 		3CE88BA41D3735D900C6B559 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FirstViewController.xib; path = home/viewcontroller/FirstViewController.xib; sourceTree = "<group>"; };
@@ -168,6 +173,9 @@
 				3CE88BA41D3735D900C6B559 /* FirstViewController.xib */,
 				3CE88BA51D3735D900C6B559 /* ViewController.h */,
 				3CE88BA61D3735D900C6B559 /* ViewController.m */,
+				3CA2E38B1D47339E003C89C7 /* SecondViewController.h */,
+				3CA2E38C1D47339E003C89C7 /* SecondViewController.m */,
+				3CA2E38D1D47339E003C89C7 /* SecondViewController.xib */,
 			);
 			name = viewcontroller;
 			sourceTree = "<group>";
@@ -295,6 +303,7 @@
 			files = (
 				3C128F971D35CC86003743E5 /* LaunchScreen.storyboard in Resources */,
 				3C128F941D35CC86003743E5 /* Assets.xcassets in Resources */,
+				3CA2E38F1D47339E003C89C7 /* SecondViewController.xib in Resources */,
 				3C128F921D35CC86003743E5 /* Main.storyboard in Resources */,
 				3CE88BAE1D3735E200C6B559 /* LearnTitleView.xib in Resources */,
 				3CE88BA81D3735D900C6B559 /* FirstViewController.xib in Resources */,
@@ -322,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CA2E38E1D47339E003C89C7 /* SecondViewController.m in Sources */,
 				3C128F8C1D35CC86003743E5 /* AppDelegate.m in Sources */,
 				3CE88BA71D3735D900C6B559 /* FirstViewController.m in Sources */,
 				3CE88BAD1D3735E200C6B559 /* LearnTitleView.m in Sources */,
