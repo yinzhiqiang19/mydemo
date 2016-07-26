@@ -22,7 +22,9 @@
     
     return self;
 }
-
+/**
+ *  加载所有的view
+ */
 -(void)loadSubViews
 {
     
